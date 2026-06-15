@@ -14,7 +14,7 @@ The model deliberately excludes pitcher identity. The goal is a classifier that 
 | Random Forest | 0.89 | 0.86 | 0.9922 |
 | **XGBoost (GPU)** | **0.93** | **0.91** | **0.9961** |
 
-XGBoost outperforms RF on every metric. The largest gain is on **FC (Cutter)** — F1 improved from 0.76 to 0.84 — the hardest class due to its physical overlap with both four-seamers and sliders.
+XGBoost outperforms RF on every metric. The largest gain is on **FS (Splitter)** — Accuracy improved from 0.69 to 0.90.
 
 5-fold stratified cross-validation confirms results are stable across data splits (σ ≤ 0.004).
 
